@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VÉRSE — Wear Your Verse</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #fafafa;
+      color: #111;
+      line-height: 1.6;
+    }
+    a { text-decoration: none; color: inherit; }
+
+    header {
+      position: sticky;
+      top: 0;
+      background: #fff;
+      padding: 20px 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #eee;
+      z-index: 100;
+    }
+
+    .logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 26px;
+      letter-spacing: 2px;
+    }
+
+    nav a {
+      margin-left: 30px;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .hero {
+      height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background: #111;
+      color: #fff;
+      padding: 40px;
+    }
+
+    .hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 64px;
+      margin-bottom: 20px;
+    }
+
+    .hero p { max-width: 600px; margin: auto; }
+
+    .btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 14px 32px;
+      border: 1px solid #fff;
+      font-size: 13px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    section { padding: 100px 60px; }
+
+    .intro {
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+      font-size: 18px;
+    }
+
+    .collection {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 40px;
+      margin-top: 60px;
+    }
+
+    .card {
+      background: #fff;
+      padding: 30px;
+      text-align: center;
+      border: 1px solid #eee;
+    }
+
+    .card img { width: 100%; height: 300px; object-fit: cover; margin-bottom: 20px; }
+
+    .values {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 30px;
+      text-align: center;
+    }
+
+    footer {
+      background: #111;
+      color: #aaa;
+      padding: 60px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    @media (max-width: 768px) {
+      header { padding: 20px; }
+      section { padding: 80px 20px; }
+      .hero h1 { font-size: 42px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">VÉRSE</div>
+  <nav>
+    <a href="#shop">Shop</a>
+    <a href="#drops">Drops</a>
+    <a href="#story">Our Story</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div>
+    <h1>Wear Your Verse</h1>
+    <p>Every piece is a line. Every outfit tells a story. Welcome to VÉRSE.</p>
+    <a href="#shop" class="btn">Shop the Drop</a>
+  </div>
+</section>
+
+<section id="story">
+  <div class="intro">
+    <p>VÉRSE is a modern fashion label built on minimal design and self-expression. Each collection is a verse — written for those who don’t follow trends, but meaning.</p>
+  </div>
+</section>
+
+<section id="shop">
+  <h2 style="text-align:center; font-family:'Playfair Display',serif; font-size:40px;">VERSE 01</h2>
+  <div class="collection">
+    <div class="card">
+      <img src="https://via.placeholder.com/400x500" alt="">
+      <h3>Ivory Tee</h3>
+      <p>₹1,499</p>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/400x500" alt="">
+      <h3>Black Essential Tee</h3>
+      <p>₹1,499</p>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/400x500" alt="">
+      <h3>Stone Oversized Tee</h3>
+      <p>₹1,799</p>
+    </div>
+  </div>
+</section>
+
+<section id="drops">
+  <div class="intro">
+    <p>Limited drops only. Once a verse is written, it’s never repeated.</p>
+  </div>
+</section>
+
+<section>
+  <div class="values">
+    <div>Minimal, not basic</div>
+    <div>Limited production</div>
+    <div>Premium quality</div>
+    <div>Timeless design</div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="intro">
+    <p>Contact us: <strong>hello@verse.com</strong><br>Based in India • Shipping Worldwide</p>
+  </div>
+</section>
+
+<footer>
+  © 2026 VÉRSE — All Rights Reserved
+</footer>
+
+</body>
+</html>
